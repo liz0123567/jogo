@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Adivinhação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h2>Jogo da Adivinhação 🎲</h2>
+    <p>Tente adivinhar o número secreto entre 1 e 100!</p>
+    
+    <div class="input-group">
+      <input type="number" id="guessInput" min="1" max="100" placeholder="Digite um número">
+      <button id="guessBtn">Chutar</button>
+    </div>
+
+    <p id="message" class="message"></p>
+    <button id="restartBtn" class="hidden">Jogar Novamente</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
